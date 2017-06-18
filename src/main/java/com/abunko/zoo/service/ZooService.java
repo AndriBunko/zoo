@@ -76,7 +76,7 @@ public class ZooService {
                     System.out.println(role.showPets());
                     break;
                 case 2:
-                    role.buyPet(new Animal("Elephant","dds", "Blue"));
+                    role.buyPet(new Animal("Elephant","Elephas", "Blue"));
                     break;
                 case 3:
                     role.sellPet("Elephant");
